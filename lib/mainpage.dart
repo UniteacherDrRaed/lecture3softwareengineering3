@@ -36,6 +36,7 @@ class MainPage extends StatelessWidget {
       body: Container(
         margin:const EdgeInsets.all(25),
         padding: const EdgeInsets.all(25),
+        alignment: Alignment.bottomCenter,
         decoration:  BoxDecoration(
           gradient: const RadialGradient(
             radius: 0.9,
