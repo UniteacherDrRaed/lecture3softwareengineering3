@@ -34,7 +34,8 @@ class MainPage extends StatelessWidget {
         titleTextStyle: const TextStyle(color: Colors.lime),
       ),
       body: IconButton(
-
+        highlightColor: Colors.lightBlue,
+        hoverColor: Colors.red,
         onPressed: (){
          ScaffoldMessenger.of(context).showSnackBar(
            const SnackBar(
