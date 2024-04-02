@@ -39,6 +39,7 @@ class MainPage extends StatelessWidget {
         decoration:  BoxDecoration(
           gradient: const RadialGradient(
             radius: 0.9,
+            center: Alignment.bottomCenter,
             colors: [
               Colors.red,
               Colors.yellow,
@@ -52,7 +53,6 @@ class MainPage extends StatelessWidget {
               blurRadius: 5,
             ),
           ],
-          border: Border.all(width: 6, color: Colors.lightBlue),
           borderRadius: BorderRadius.circular(25),
         ),
         width: 200,
