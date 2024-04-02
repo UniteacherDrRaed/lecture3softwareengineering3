@@ -45,7 +45,7 @@ class MainPage extends StatelessWidget {
             ],
             begin: Alignment.topLeft,
           ),
-          borderRadius: BorderRadius.horizontal(left:Radius.circular(25)),
+          borderRadius: BorderRadius.only(topLeft:Radius.circular(25)),
         ),
         width: 200,
         height: 250,
