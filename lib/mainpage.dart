@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'dart:math';
 class MainPage extends StatelessWidget {
   const MainPage({super.key});
 
@@ -38,13 +38,13 @@ class MainPage extends StatelessWidget {
         padding: const EdgeInsets.all(25),
         alignment: Alignment.bottomCenter,
         decoration:  BoxDecoration(
-          gradient: const RadialGradient(
-            radius: 0.9,
-            center: Alignment.bottomCenter,
+          gradient: SweepGradient(
+            startAngle: pi,
+            endAngle: 2*pi,
             colors: [
               Colors.red,
               Colors.yellow,
-              Colors.lime
+              Colors.green,
             ]
           ),
           boxShadow:const [
