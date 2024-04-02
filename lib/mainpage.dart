@@ -45,6 +45,13 @@ class MainPage extends StatelessWidget {
             ],
             begin: Alignment.topLeft,
           ),
+          boxShadow:const [
+            BoxShadow(
+              color:Colors.lime,
+              offset: Offset(10,16),
+              blurRadius: 5,
+            )
+          ],
           borderRadius: BorderRadius.circular(25),
         ),
         width: 200,
