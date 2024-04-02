@@ -34,9 +34,13 @@ class MainPage extends StatelessWidget {
         titleTextStyle: const TextStyle(color: Colors.lime),
       ),
       body: IconButton(
+
         onPressed: (){
          ScaffoldMessenger.of(context).showSnackBar(
-           const SnackBar(content: Text("example snackbar"))
+           const SnackBar(
+               backgroundColor: Colors.yellow,
+               duration: Duration(seconds: 2),
+               content: Text("example snackbar"))
          );
         },
         icon: Icon(Icons.add),
