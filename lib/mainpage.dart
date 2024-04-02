@@ -36,8 +36,8 @@ class MainPage extends StatelessWidget {
       body: Container(
         margin:const EdgeInsets.all(25),
         padding: const EdgeInsets.all(25),
-        decoration:const  BoxDecoration(
-          gradient: LinearGradient(
+        decoration:  BoxDecoration(
+          gradient: const LinearGradient(
             colors: [
               Colors.green,
               Colors.red,
@@ -45,7 +45,7 @@ class MainPage extends StatelessWidget {
             ],
             begin: Alignment.topLeft,
           ),
-          borderRadius: BorderRadius.only(topLeft:Radius.circular(25)),
+          borderRadius: BorderRadius.circular(25),
         ),
         width: 200,
         height: 250,
