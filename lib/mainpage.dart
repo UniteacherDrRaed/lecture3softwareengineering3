@@ -50,8 +50,9 @@ class MainPage extends StatelessWidget {
               color:Colors.lime,
               offset: Offset(10,16),
               blurRadius: 5,
-            )
+            ),
           ],
+          border: Border.all(width: 6, color: Colors.lightBlue),
           borderRadius: BorderRadius.circular(25),
         ),
         width: 200,
