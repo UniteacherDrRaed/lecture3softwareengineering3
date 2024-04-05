@@ -1,4 +1,26 @@
 import 'package:flutter/material.dart';
+class MainPage extends StatelessWidget {
+  const MainPage({super.key});
+  @override
+  Widget build(BuildContext context) {
+    return Scaffold(
+      appBar: AppBar(
+        title: const Text("Exercise8"),
+        centerTitle: true, backgroundColor: Colors.red,
+        leading: Icon(Icons.person, color: Colors.white, size: 21,),
+        leadingWidth: 100,
+        actions: [IconButton(onPressed: () {},
+            tooltip: "Mail",
+              icon: const Icon(Icons.mail, color: Colors.white,)),
+              IconButton(onPressed: () {},
+              icon: const Icon(Icons.radio, color: Colors.white,)),],
+        titleTextStyle: const TextStyle(color: Colors.lime),),
+       body:  IconButton.outlined(
+         onPressed: () {},
+         iconSize: 100, icon: Icon(Icons.add),),);}}
+
+/*
+import 'package:flutter/material.dart';
 
 class MainPage extends StatelessWidget {
   const MainPage({super.key});
@@ -61,6 +83,7 @@ class MainPage extends StatelessWidget {
     );
   }
 }
+*/
 
 /*
 page 49
